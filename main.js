@@ -19,7 +19,7 @@ let username= id("username"),
     failureIcon=classes("failure-icon");
 
 form.addEventListener("submit",(e) => {
-    e.preventDefault();
+    e.preventDefault();/*Callback trong js*/ 
     engine(username,0,"Username can not be blank");
     engine(email,1,"Email can not be blank");
     engine(password,2,"Password can not be blank");
